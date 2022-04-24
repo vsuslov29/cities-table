@@ -185,7 +185,7 @@ function CitiesTable() {
 
     setSelectedCellId(id);
 
-    popup(`/popup/${dateRelease}/${value}/${user}/${comment}`, "window", 850, 400);
+    popup(`/cities-table/#/popup/${dateRelease}/${value}/${user}/${comment}`, "window", 850, 400);
   }
 
   return (
